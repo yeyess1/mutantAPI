@@ -32,9 +32,9 @@ Una vez aqui buscamos Windows PowerShelly abrimos la carpeta
 	cd mutant_API
 
 2. Crear el entorno virtual:
-	pip install virtualenv
+		pip install virtualenv
 	Luego:
-	virtualenv -p python env
+		virtualenv -p python env
 
  	Una vez ejecutada esta linea deberia verse un folder llamado env, comprobado esto procedemos
 	a activar el entorno virtual:
