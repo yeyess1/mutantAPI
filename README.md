@@ -21,12 +21,15 @@
 	pip install Django==3.2.4 
 
 4.Instalar rest Framework: 
+	
 	pip install djangorestframework
 
 5. Instalar manejadores sql: 
+	
 	pip install mysqlclient pymysql
 
 6. Dentro de VC pesionar Ctrl+ Shift + P, una vez ahi pondremos :
+	
 	Python: Select Interpreter
 
 	En este punto daremos click derecho sobre la carpeta env, en el explorador de archivos
@@ -37,6 +40,7 @@
 	 
 
 7. En este punto ya deberia ser posible Arrancar el servicio:
+	
 	Desde el terminal de comandos de VC. Nos aseguramos de estar en el env, debe salir (env) antes de la ubicacion actual:
 	
 ![image](https://user-images.githubusercontent.com/92695542/172210867-f5589a22-80c0-4221-9ce7-37242a7a77eb.png)
