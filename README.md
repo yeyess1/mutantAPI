@@ -56,7 +56,7 @@ Una vez aqui buscamos Windows PowerShelly abrimos la carpeta
 	
 	pip install mysqlclient pymysql
 
-6. Dentro de VC pesionar Ctrl+ Shift + P, una vez ahi pondremos :
+6. AsumiMOS que ya esta instalado Pytgon en VC. Dentro de VC pesionar Ctrl+ Shift + P, una vez ahi pondremos :
 	
 	Python: Select Interpreter;
 
