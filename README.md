@@ -8,10 +8,16 @@
 
  	Una vez ejecutada esta linea deberia verse un folder llamado env, comprobado esto procedemos
 	a activar el entorno virtual:
- 
+	
+![image](https://user-images.githubusercontent.com/92695542/172211747-7ef96f39-69b7-436b-8015-8a936f4608d8.png)
+
 	.\env\Scripts\activate 
 
-3. Comprobar (env) en la consoloma de comandos,con el entorno ya activo instalamos django: 
+3. Comprobar (env) en la consola de comandos, con el entorno ya activo instalamos django: 
+
+![image](https://user-images.githubusercontent.com/92695542/172210867-f5589a22-80c0-4221-9ce7-37242a7a77eb.png)
+
+
 	pip install Django==3.2.4 
 
 4.Instalar rest Framework: 
@@ -26,14 +32,14 @@
 	En este punto daremos click derecho sobre la carpeta env, en el explorador de archivos
 	de VC y seleccionaremos copy path, pegaremos esta ubicacion en la paleta de comandos abierta
 	
-	![image](https://user-images.githubusercontent.com/92695542/172210564-6983c795-5369-469a-ba3b-2c22793ba370.png)
+![image](https://user-images.githubusercontent.com/92695542/172210564-6983c795-5369-469a-ba3b-2c22793ba370.png)
 
 	 
 
 7. En este punto ya deberia ser posible Arrancar el servicio:
 	Desde el terminal de comandos de VC. Nos aseguramos de estar en el env, debe salir (env) antes de la ubicacion actual:
 	
-	![image](https://user-images.githubusercontent.com/92695542/172210867-f5589a22-80c0-4221-9ce7-37242a7a77eb.png)
+![image](https://user-images.githubusercontent.com/92695542/172210867-f5589a22-80c0-4221-9ce7-37242a7a77eb.png)
 	
 	De no ser asi repetir los comandos:
 		cd mutant_API
