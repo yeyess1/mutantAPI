@@ -61,7 +61,7 @@ Deberia verse algo asi:
 8. Desplegar base de datos: 
 	Dentro del archivo zip que conforma el proyecto se encuentra el script de la 
 	base de datos (mutantDB), abrir el script en un gestor de base de datos. Para la
-	creacion del script se uso Mysql. Una vez abierto el script en el entrono local del
+	creacion del script se uso Mysql. Una vez abierto el script en el entorno local del
 	gestor de bases y creada la base de datos estamos listos para utilizar el servicio:
 
 URL BASE: http://localhost:8000/mutant:
