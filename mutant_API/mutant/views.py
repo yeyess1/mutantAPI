@@ -43,7 +43,7 @@ class MutantApiView(APIView):
         
         else:
             res = status.HTTP_403_FORBIDDEN
-            Mutant.objects.create(noMutant=jd)
+            Mutant.objects.create(Human=jd)
 
 
         return Response(res)
