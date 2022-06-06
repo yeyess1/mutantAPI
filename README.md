@@ -30,12 +30,17 @@
 
 6. Dentro de VC pesionar Ctrl+ Shift + P, una vez ahi pondremos :
 	
-	Python: Select Interpreter
+	Python: Select Interpreter;
 
 	En este punto daremos click derecho sobre la carpeta env, en el explorador de archivos
 	de VC y seleccionaremos copy path, pegaremos esta ubicacion en la paleta de comandos abierta
 	
 ![image](https://user-images.githubusercontent.com/92695542/172210564-6983c795-5369-469a-ba3b-2c22793ba370.png)
+
+Deberia verse algo asi:
+
+![image](https://user-images.githubusercontent.com/92695542/172212449-7e1f3fd2-1fea-40c7-a55b-753d80e7bd0e.png)
+
 
 	 
 
@@ -76,6 +81,8 @@ URL BASE: http://localhost:8000/mutant:
 	{
 		"dna":["ATGCGA","CAGTAC","AGTAGG","CCGCTA","TCACTG"]
 	}
+	
+	Se espera un 403.
 	
 Despues de realizar una serie de consultas es posible validar la proporcion de
 ADN mutantes y humanos: 
