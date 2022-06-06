@@ -58,7 +58,7 @@ Una vez aqui buscamos Windows PowerShelly abrimos la carpeta
 	
 	pip install mysqlclient pymysql
 
-6. AsumiMOS que ya esta instalado Pytgon en VC. Dentro de VC pesionar Ctrl+ Shift + P, una vez ahi pondremos :
+6. Dentro de VC pesionar Ctrl+ Shift + P, una vez ahi pondremos :
 	
 	Python: Select Interpreter;
 
@@ -70,8 +70,6 @@ Una vez aqui buscamos Windows PowerShelly abrimos la carpeta
 Deberia verse algo asi:
 
 ![image](https://user-images.githubusercontent.com/92695542/172212449-7e1f3fd2-1fea-40c7-a55b-753d80e7bd0e.png)
-
-
 	 
 
 7. En este punto ya deberia ser posible Arrancar el servicio:
@@ -90,9 +88,8 @@ Deberia verse algo asi:
 
 8. Desplegar base de datos: 
 	Dentro del archivo zip que conforma el proyecto se encuentra el script de la 
-	base de datos (mutantDB), abrir el script en un gestor de base de datos. Para la
-	creacion del script se uso Mysql. Una vez abierto el script en el entorno local del
-	gestor de bases y creada la base de datos estamos listos para utilizar el servicio:
+	base de datos (mutantDB).Para la creacion del script se uso Mysql, por lo que es necesario que el servicio
+	de mysql80 este corriendo. Una vez verificiado esto, estamos listos para utilizar el servicio:
 
 URL BASE: http://localhost:8000/mutant:
 	
