@@ -1,4 +1,30 @@
 # mutantAPI
+Primero es necesario habilitar el uso de scripts, en caso de ya ternerlos permitidos saltar al paso 1:
+	Damos click derecho sobre el icono de windows, y seleccionamos Windows powershell(Admin)
+
+![image](https://user-images.githubusercontent.com/92695542/172235184-3912560c-2f2a-4f26-b280-708d1c7021b8.png)
+
+	Una vez ahi colocamos :
+		Set-EtwTraceProvider
+	Verificamos que queden activos con el comando:
+		Get-ExecutionPolicy -list
+
+![image](https://user-images.githubusercontent.com/92695542/172235261-26aedef2-6a4b-4caf-9d7d-98795472591d.png)
+
+Ya podemos cerrar esta pestaña. Presionamos Windows + R y accedemos a: gpedit.msc
+
+Una vez aqui seleccionamos: plantillas administrativas
+
+![image](https://user-images.githubusercontent.com/92695542/172235487-56e8cfa4-92a7-4a0f-9018-39d2abfd1bf0.png)
+
+Una vez aqui buscamos Windows PowerShelly abrimos la carpeta
+	Damos eclick en la opcion Activar la ejecucion de scripts
+	Seleccionamos Habilitada y en la barra de Directiva de ejecucion seleccionamos 
+	Permitir todos los scripts, damos Aplicar y Aceptar.
+
+![image](https://user-images.githubusercontent.com/92695542/172235691-0a11c190-4bf0-4109-987b-0f7bb85028b7.png)
+
+
 
 1. Acceder al terminal (preferiblemente desde el terminal de VC) e ingresar a la carpeta raiz:
 	cd mutant_API
