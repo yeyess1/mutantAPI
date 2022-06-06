@@ -97,8 +97,7 @@ Deberia verse algo asi:
 		python manage.py runserver
 
 		
-	Una vez verificiado esto, estamos listos para utilizar el servicio:
-
+	Una vez verificiado esto, estamos listos para utilizar el servicio: ¡OJO! Es posible que aparezca un mensjae notificando que las columnas ya existen, es normal, contiuemos con las validaciones.
 URL BASE: http://localhost:8000/mutant:
 	
 	Casos de prueba:
