@@ -25,13 +25,16 @@
 
 	En este punto daremos click derecho sobre la carpeta env, en el explorador de archivos
 	de VC y seleccionaremos copy path, pegaremos esta ubicacion en la paleta de comandos abierta
+	
 	![image](https://user-images.githubusercontent.com/92695542/172210564-6983c795-5369-469a-ba3b-2c22793ba370.png)
 
 	 
 
 7. En este punto ya deberia ser posible Arrancar el servicio:
 	Desde el terminal de comandos de VC. Nos aseguramos de estar en el env, debe salir (env) antes de la ubicacion actual:
+	
 	![image](https://user-images.githubusercontent.com/92695542/172210867-f5589a22-80c0-4221-9ce7-37242a7a77eb.png)
+	
 	De no ser asi repetir los comandos:
 		cd mutant_API
 		.\env\Scripts\activate 
