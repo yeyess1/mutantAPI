@@ -4,6 +4,8 @@
 	cd mutant_API
 
 2. Crear el entorono virtual:
+	pip install virtualenv
+	Luego:
 	virtualenv -p python env
 
  	Una vez ejecutada esta linea deberia verse un folder llamado env, comprobado esto procedemos
