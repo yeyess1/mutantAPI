@@ -15,7 +15,7 @@ Primero es necesario habilitar el uso de scripts, en caso de ya ternerlos permit
 
 Ya podemos cerrar esta pestaña. Presionamos Windows + R y accedemos a: gpedit.msc
 
-Una vez aqui seleccionamos: plantillas administrativas
+Una vez aqui seleccionamos: plantillas administrativas y componentes de windows
 
 ![image](https://user-images.githubusercontent.com/92695542/172235487-56e8cfa4-92a7-4a0f-9018-39d2abfd1bf0.png)
 
