@@ -72,7 +72,16 @@ Deberia verse algo asi:
 ![image](https://user-images.githubusercontent.com/92695542/172212449-7e1f3fd2-1fea-40c7-a55b-753d80e7bd0e.png)
 	 
 
-7. En este punto ya deberia ser posible Arrancar el servicio:
+7. Desplegar base de datos: 
+	Dentro del archivo zip que conforma el proyecto se encuentra el script de la 
+	base de datos (mutantDB).Para la creacion del script se uso Mysql, por lo que es necesario que el servicio
+	de mysql80 este corriendo. Debemos valdiar las creedenciales de mysql:
+		Vamos a la carpeta mutant_API, entramos a settings.py y buscamos la seccion Database: Ahi cambiamos el atributo password por la clave del usuario root			de MYSQL. 
+		
+![image](https://user-images.githubusercontent.com/92695542/172257216-a811b0a6-c400-4c26-9297-735ca4b3cd3d.png)
+
+
+8. En este punto ya deberia ser posible Arrancar el servicio:
 	
 	Desde el terminal de comandos de VC. Nos aseguramos de estar en el env, debe salir (env) antes de la ubicacion actual:
 	
@@ -84,12 +93,11 @@ Deberia verse algo asi:
 	Deberia aparecer ahora el (env)
 	
 	Una vez en el entorno virtual y con todos los pasos previos:
+		python manage.py migrate
 		python manage.py runserver
 
-8. Desplegar base de datos: 
-	Dentro del archivo zip que conforma el proyecto se encuentra el script de la 
-	base de datos (mutantDB).Para la creacion del script se uso Mysql, por lo que es necesario que el servicio
-	de mysql80 este corriendo. Una vez verificiado esto, estamos listos para utilizar el servicio:
+		
+	Una vez verificiado esto, estamos listos para utilizar el servicio:
 
 URL BASE: http://localhost:8000/mutant:
 	
