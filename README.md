@@ -1,4 +1,6 @@
 # mutantAPI
+Para el uso de la API se requieren instaladas las siguientes tecnologias: VC, python, MYSQL.
+
 Primero es necesario habilitar el uso de scripts, en caso de ya ternerlos permitidos saltar al paso 1:
 	Damos click derecho sobre el icono de windows, y seleccionamos Windows powershell(Admin)
 
